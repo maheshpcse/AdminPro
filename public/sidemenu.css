@@ -1,0 +1,32 @@
+.sidebar-menu {
+    display: block;
+    position: fixed;
+    vertical-align: top;
+    width: 240px;
+    z-index: 1000;
+    height: 100%;
+    overflow-y: auto;
+    box-shadow: 1px 0px 1px 0 rgba(0, 0, 0, 0.05);
+    background: #222225;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(0);
+}
+    .before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: url('/assets/img/sidebar-1.png');
+        opacity: 0.8;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: left 40%;
+    }
+    .sidebar-menu-inner {
+        height: calc(100% - 70px);
+        overflow-y: auto;
+        padding-top: 5px;
+        background: rgba(255, 255, 255, 0.97);
+    }
