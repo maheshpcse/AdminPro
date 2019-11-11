@@ -1,0 +1,43 @@
+{
+  "name": "akv_operator_interface",
+  "version": "1.0.0",
+  "description": "Akrivia operator web application by using node.js and handlebars template engine",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Akrivia"
+  ],
+  "author": "Akrivia Automation",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.4",
+    "crypto-js": "^3.1.9-1",
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "fs": "0.0.1-security",
+    "jquery": "^3.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.1",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.7",
+    "mysql": "^2.17.1",
+    "nodemailer": "^6.3.1",
+    "objection": "^1.6.11",
+    "pg": "^7.12.1",
+    "pg-pool": "^2.0.7",
+    "pm2": "^4.1.2",
+    "request": "^2.88.0",
+    "sessionstorage": "^0.1.0",
+    "utf8": "^3.0.0"
+  }
+}
