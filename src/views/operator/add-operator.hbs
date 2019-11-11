@@ -1,0 +1,23 @@
+{{> nav/nav-block}}
+
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <form action="/home" method="POST">
+                <div class="form-group">
+                    <input type="number" class="form-control" name="op_id" placeholder="Enter operator id">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="op_name" placeholder="Enter operator name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="machine_name" placeholder="Enter machine name">
+                </div>
+                <button class="btn btn-success" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{{!-- {{> footer/footer}} --}}
